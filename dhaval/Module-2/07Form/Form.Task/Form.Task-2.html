@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task-2</title>
+</head>
+<body>
+    <fieldset>
+        <form action="" method="get">
+            <label for="nm"><b>Name :</b></label>
+            <input type="text" name="nm" id="" placeholder="Name" required>
+            <br><br>
+            <label for="pass"><b>password :</b></label>
+            <input type="text" name="pass" id="" placeholder="password" required>
+            <br><br>
+            <label for="gen">Gender :</label>
+            Male<input type="radio" name="gen" id="">
+            Female<input type="radio" name="gen" id="">
+            <br><br>
+            <label for="mail">Email :</label>
+            <input type="email" name="mail" id="">
+            <br><br>
+            <label for="phone">Phone No :</label>
+            <select>
+            <option value="1">+1</option>
+            <option value="91">+91</option>
+            <option value="93">+93</option>
+            <option value="255">+255</option>
+            <option value="213">+213</option>
+            <option value="672">+672</option>
+        </select>
+            <input type="tel" name="phone" id="" required  minlength="10" maxlength="10" pattern="[0-9] {10}">
+            <br><br>
+            <input type="submit" name="" id="" value="submit" onclick="alert('Your form submitted')">
+            <br><br>
+    </fieldset>
+</body>
+</html>
