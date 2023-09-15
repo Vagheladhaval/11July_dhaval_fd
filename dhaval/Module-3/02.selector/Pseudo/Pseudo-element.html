@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .div{
+            height: 120px;
+            width: 120px;
+            background:#ebf;
+            transition: 1s;
+        }
+        .div:hover{
+            border: 10px solid black;
+            background: #55ee;
+        }
+        a:active{
+            color: blueviolet;
+        }
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="div"></div>
+    <p>Class select using period '.'</p>
+    <p>Id select using '#'</p>
+    <p>Pseudo element select using single colon':'</p>
+    <a href="#">Link</a>
+</body>
+</html>
