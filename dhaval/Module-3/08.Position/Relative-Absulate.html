@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative-Absolute</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* border: 2px solid red; */
+        }
+
+        .banner{
+            height: 500px;
+            width: 100%;
+            position: relative;
+        }
+        .banner .ban{
+            height: inherit;
+            width: inherit;
+            position: absolute;
+        }
+
+        .banner .ban-img img{
+            height: 100%;
+            width: 100%;
+            filter: brightness(40%);
+        }
+
+        .banner .ban-info{
+            font-size: 20px;
+            color: #fff;
+            width: 50%;
+            height: 50%;
+            top: 25%;
+            left: 25%;
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="ban ban-img">
+            <img src="../../Image/pexels-photo-268533.webp" alt="">
+        </div>
+        <div class="ban ban-info">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae consequuntur corporis tempora, suscipit aliquam nihil vitae ratione quas, maiores nemo velit reiciendis aliquid magnam nam atque voluptate pariatur eos beatae mollitia quos soluta accusamus cumque eius. Quod praesentium animi aperiam mollitia magni, ut repudiandae exercitationem modi possimus suscipit facilis cum!</p>
+        </div>
+    </div>
+</body>
+</html>
