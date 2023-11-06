@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        .cantainer{
+            height: 500px;
+            width: 50%;
+            position: relative;
+            margin: auto;
+        }
+        .cantainer .box{
+            height: inherit;
+            width: 100%;
+            position: absolute;
+            transition: 2.5s;
+            /* backface-visibility: hidden; */
+        }
+        .cantainer .box img{
+            height: 100%;
+            width: 100%;
+        }
+        /* .cantainer .k-1{
+            transform: rotateY('180deg');
+        }
+        .cantainer .k-2{
+            transform: rotateY('0deg');
+        } */
+        .cantainer:hover .k-1{
+            transform: rotateY('0deg');
+        }
+        .cantainer:hover.k-2{
+            transform: rotateY('180deg');
+        }
+    </style>
+</head>
+<body>
+    <div class="cantainer">
+        <div class="box k-1">
+            <img src="https://c.pxhere.com/photos/32/cf/white_male_fashion_man_young_people_person_portrait-580923.jpg!d" alt="">
+        </div>
+        <div class="box k-2">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.cDhRJSU3YESH2cX-Drsu5gHaJQ&pid=Api&P=0&h=180" alt="">
+        </div>
+    </div>
+</body>
+</html>
