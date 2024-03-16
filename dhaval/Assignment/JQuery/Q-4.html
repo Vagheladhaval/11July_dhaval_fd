@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q - 4</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        input{
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>Body
+    <div>Div
+        <ul>Ul
+            <li>Li
+                <input type="text" name="" placeholder="span">
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("input").parents().css({ "color": "blue", "border": "5px solid red", "padding": "30px"});
+        });
+    </script>
+
+</body>
+
+</html>
