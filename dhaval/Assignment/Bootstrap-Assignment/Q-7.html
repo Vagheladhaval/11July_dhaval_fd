@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-7</title>
+    <style>
+        .thumbnail {
+          width: 200px;
+          margin-bottom: 20px;
+
+        }
+
+        body {
+            height: auto;
+            width: 98%;
+            border: 5px solid gray;
+            border-radius: 20px;
+        }
+
+        h1, h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 20px;
+        }
+
+        p {
+            margin-left: 20px;
+        }
+      </style>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"   >
+</head>
+<body>
+    <h1>Q-7 How can you use Bootstrap to make thumbnail?</h1>
+    <h2>In this example:</h2>
+
+<p>We use the .card component to create a card container for each thumbnail.</p>
+<p>Inside each .card, we have an <!--img--> element with the class .card-img-top for the thumbnail image.</p>
+<p>We use .card-body to contain the content of the thumbnail, including a title, text, and a button.</p>
+<p>The styling for the thumbnail size and spacing is applied using custom CSS.</p>
+
+<h2>Example:</h2>
+
+<div class="container ">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/200" class="card-img-top" alt="Thumbnail Image">
+          <div class="card-body">
+            <h3 class="card-title">Thumbnail 1</h3>
+            <p class="card-text">Some example text to represent the contents of the thumbnail.</p>
+            <a href="#" class="btn btn-primary ">Button</a>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
