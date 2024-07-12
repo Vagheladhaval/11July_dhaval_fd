@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-86</title>
+    <style>
+        body {
+            font-size: 18px;
+        }
+
+        .ans{
+            text-align: center;
+        }
+
+        button {
+            padding: 10px;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <h3><u>Create basic math operation in JS</u></h3>
+    <div class="ans">
+        <h3>Maths Operations</h3>
+        <label for="num1">Enter 1st Number : </label>
+        <input type="text" id="inp1" name="num1"> <br><br>
+        <label for="num2">Enter 2nd Number : </label>
+        <input type="text" id="inp2" name="num1"> <br><br>
+        <label for="ans" id="ans"></label> <br><br>
+        <button type="button" id="btn" onclick="add()">+</button>
+        <button type="button" id="btn" onclick="sub()">-</button>
+        <button type="button" id="btn" onclick="mul()">*</button>
+        <button type="button" id="btn" onclick="div()">/</button>
+        <button type="button" id="btn" onclick="mod()">%</button>
+    </div>
+    <script>
+        let a = document.getElementById("inp1");
+        let b = document.getElementById("inp2");
+        let c = document.getElementById('ans');
+        let d = document.getElementById('btn');
+        function add() {
+            c.value = parseInt(inp1.value) + parseInt(inp2.value);
+            document.getElementById("ans").innerHTML = "Answer is : " + c.value;
+            c.style.color = "blue";
+        }
+        function sub() {
+            c.value = parseInt(inp1.value) - parseInt(inp2.value);
+            document.getElementById("ans").innerHTML = "Answer is : " + c.value;
+        }
+        function mul() {
+            c.value = parseInt(inp1.value) * parseInt(inp2.value);
+            document.getElementById("ans").innerHTML = "Answer is : " + c.value;
+        }
+        function div() {
+            c.value = parseInt(inp1.value) / parseInt(inp2.value);
+            document.getElementById("ans").innerHTML = "Answer is : " + c.value;
+        }
+        function mod() {
+            c.value = parseInt(inp1.value) % parseInt(inp2.value);
+            document.getElementById("ans").innerHTML = "Answer is : " + c.value;
+        }
+    </script>
+    <hr>
+</body>
+
+</html>
