@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-66</title>
+</head>
+
+<body>
+    <h1>Find the length of a string without using libraryFunction?</h1>
+
+    <p>To find the length of a string without using the built-in length property or any library functions, you can
+        iterate through the string and count the characters manually. </p>
+
+    <script>
+        function getStringLength(str) {
+            let length = 0;
+
+            for (let char of str) {
+                length++;
+            }
+
+            return length;
+        }
+
+        let testString = "30 Days of JavaScript";
+        let length = getStringLength(testString);
+        console.log(`The length of the string is: ${length}`); 
+
+    </script>
+</body>
+
+</html>

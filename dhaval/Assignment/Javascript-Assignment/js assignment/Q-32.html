@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-32</title>
+</head>
+
+<body>
+    <h1>Write to print factorial of given number? </h1>
+
+    <p> You can write a function to calculate and print the factorial of a given number in JavaScript.</p>
+    <script>
+        function factorial(n) {
+            if (n < 0) {
+                return "Factorial is not defined for negative numbers.";
+            }
+
+            let result = 1;
+            for (let i = 1; i <= n; i++) {
+                result *= i;
+            }
+            return result;
+        }
+
+        // Example usage:
+        let number = 5;
+        console.log("Factorial of " + number + " is " + factorial(number));
+
+    </script>
+</body>
+
+</html>

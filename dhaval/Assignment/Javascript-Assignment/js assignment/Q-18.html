@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-18</title>
+</head>
+
+<body>
+    <h1>What is a Loop and Switch Case in JavaScript define that ?</h1>
+
+    <p>Loops: <br><br>
+        Loops are control structures used to repeat a block of code as long as a specified condition is true.
+        JavaScript provides several types of loops</p>
+    <p>
+        Switch case: <br><br>
+        The switch statement evaluates an expression and executes code based on matching case clauses. It is used as an
+        alternative to multiple if...else if statements
+    </p>
+
+    <script>
+        //loop
+        for (let i = 0; i < 5; i++) {
+            document.write(i);
+        }
+
+        let day = 0;
+        let dayName;
+
+        switch (day) {
+            case 0:
+                dayName = 'Sunday';
+                break;
+            case 1:
+                dayName = 'Monday';
+                break;
+            case 2:
+                dayName = 'Tuesday';
+                break;
+            case 3:
+                dayName = 'Wednesday';
+                break;
+            case 4:
+                dayName = 'Thursday';
+                break;
+            case 5:
+                dayName = 'Friday';
+                break;
+            case 6:
+                dayName = 'Saturday';
+                break;
+            default:
+                dayName = 'Invalid day';
+        }
+
+        document.write(dayName);  // Output: Tuesday
+
+
+    </script>
+</body>
+
+</html>

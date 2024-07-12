@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-46</title>
+</head>
+
+<body>
+    <h1>Write a JavaScript program to clone an array?</h1>
+    <script>
+        function cloneArrayUsingSlice(array) {
+            return array.slice();
+        }
+
+        const originalArray = [1, 2, 3, 4];
+        const clonedArray = cloneArrayUsingSlice(originalArray);
+
+        console.log(clonedArray);
+        console.log(originalArray === clonedArray);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-35</title>
+</head>
+
+<body>
+    <h1>Write a program make a summation of given number (E.g., 1523 Ans: - 11) in JS? </h1>
+    <script>
+        function sumOfDigits(number) {
+            let sum = 0;
+            let num = Math.abs(number);
+
+            while (num > 0) {
+                sum += num % 10;
+                num = Math.floor(num / 10); 
+            }
+
+            return sum;
+        }
+
+        
+        let number = 1523;
+        let result = sumOfDigits(number);
+        console.log("Sum of digits of " + number + " is: " + result); 
+
+    </script>
+</body>
+
+</html>

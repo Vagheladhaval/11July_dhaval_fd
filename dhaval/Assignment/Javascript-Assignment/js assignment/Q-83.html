@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-83</title>
+    <style>
+        body {
+            border: 5px solid rgb(41, 101, 125);
+            border-radius: 10px;
+            height: auto;
+        }
+
+        h1 {
+            margin-top: 5%;
+            margin-left: 5%;
+        }
+
+        p {
+            font-size: 25px;
+            margin-left: 8%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Q-83. What are the disadvantages of using innerHTML in JavaScript?</h1>
+
+    <h2>Ans:- disadvantages of innerHTML:</h2>
+    <p> It,s disadvantages is if we add some text by this in any element ,that time element lose it's privious all text content.</p>
+    <div>
+
+        <h2>Example:</h2>
+
+        <pre>
+            &lt; p id=p1" &gt; Dhaval &lt;/p&gt;
+             document.getElementById('p1').innerHTML = ' I AM Student .';
+        </pre>
+    </div>
+</body>
+
+</html>

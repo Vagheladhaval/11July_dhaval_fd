@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-36</title>
+</head>
+
+<body>
+    <h1> Write a program you have to make a summation of first and last Digit. (E.g., 1234 Ans: -
+        5) in JS? </h1>
+    <script>
+        function sumFirstAndLastDigit(number) {
+            let numStr = number.toString();
+            let firstDigit = parseInt(numStr.charAt(0));
+            let lastDigit = parseInt(numStr.charAt(numStr.length - 1));
+
+            return firstDigit + lastDigit;
+        }
+
+        // Example usage:
+        let number = 1234;
+        let result = sumFirstAndLastDigit(number);
+        console.log("Sum of first and last digit of " + number + " is: " + result);
+
+    </script>
+</body>
+
+</html>

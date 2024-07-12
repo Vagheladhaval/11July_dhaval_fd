@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-54</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+    <h3><u>Form validation in JS?</u></h3>
+    <pre>- Form validation in JavaScript ensures that the data entered by a user meets the required criteria before it is submitted to the server.
+- Here's a basic guide on how to implement form validation using JavaScript:
+
+- <u>Example :</u></pre>
+
+    <form id="myForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"><br><br>
+        <input type="submit" value="Submit">
+
+        <script>
+            function validateForm() {
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                var age = document.getElementById("age").value;
+
+                if (name == "") {
+                    alert("Name must be filled out");
+                    return false;
+                }
+
+                var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+                if (!emailPattern.test(email)) {
+                    alert("Invalid email address");
+                    return false;
+                }
+
+                if (isNaN(age) || age < 1 || age > 100) {
+                    alert("Age must be a number between 1 and 100");
+                    return false;
+                }
+
+                return true;
+            }
+        </script>
+        <hr>
+</body>
+
+</html>

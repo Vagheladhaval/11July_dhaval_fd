@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-29</title>
+</head>
+
+<body>
+    <h1>Write to show
+        i. Monday to Sunday using switch case in JS?
+        ii. Vowel or Consonant using switch case in JS? </h1>
+    <script>
+        console.log(" Monday to Sunday using switch case in js.")
+        function getDayOfWeek(dayNumber) {
+            let dayName;
+            switch (dayNumber) {
+                case 1:
+                    dayName = 'Monday';
+                    break;
+                case 2:
+                    dayName = 'Tuesday';
+                    break;
+                case 3:
+                    dayName = 'Wednesday';
+                    break;
+                case 4:
+                    dayName = 'Thursday';
+                    break;
+                case 5:
+                    dayName = 'Friday';
+                    break;
+                case 6:
+                    dayName = 'Saturday';
+                    break;
+                case 7:
+                    dayName = 'Sunday';
+                    break;
+                default:
+                    dayName = 'Invalid day number';
+            }
+            return dayName;
+        }
+
+        // Example usage:
+        let dayNumber = 3;
+        console.log(getDayOfWeek(dayNumber)); // Outputs: Wednesday
+
+        console.log("Vowel or Consonant using switch case in JS")
+        function checkVowelOrConsonant(char) {
+            let lowerChar = char.toLowerCase(); // Convert the character to lowercase for case insensitivity
+            let result;
+
+            switch (lowerChar) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    result = 'Vowel';
+                    break;
+                default:
+                    // Check if the character is a letter (ignores non-alphabetic characters)
+                    if (/[a-z]/.test(lowerChar)) {
+                        result = 'Consonant';
+                    } else {
+                        result = 'Invalid input';
+                    }
+            }
+
+            return result;
+        }
+
+        // Example usage:
+        let char = 'A';
+        console.log(checkVowelOrConsonant(char)); // Outputs: Vowel
+
+        char = 'b';
+        console.log(checkVowelOrConsonant(char)); // Outputs: Consonant
+
+        char = '1';
+        console.log(checkVowelOrConsonant(char)); // Outputs: Invalid input
+
+
+    </script>
+</body>
+
+</html>

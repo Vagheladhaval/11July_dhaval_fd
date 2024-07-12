@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-7</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .dhaval {
+            text-align: center;
+            font-size: 20px;
+            color: beige;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dhaval">
+        <h1>Q.7 Check if typeof '10' is exactly equal to 10. If not make it exactly equal?</h1>
+
+        <p>'str' is assigned the string `'10'`</p>
+        <p>'str' is assigned the string '10'</p>
+    </div>
+    <script>
+        let str = '10';
+        let num = 10;
+
+        if (typeof str === 'string' && typeof num === 'number' && str !== num) {
+            str = Number(str); 
+        }
+
+        console.log(str === num); 
+        console.log(typeof str); 
+        console.log(typeof num); 
+
+    </script>
+</body>
+
+</html>

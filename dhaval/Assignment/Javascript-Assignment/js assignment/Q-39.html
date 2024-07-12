@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-39</title>
+</head>
+<body>
+    <h1>Accept 3 numbers from user using while loop and check each numbers palindrome? </h1>
+    <script>
+        // Function to check if a number is palindrome
+function isPalindrome(number) {
+    let numString = number.toString();
+    let left = 0;
+    let right = numString.length - 1;
+
+    while (left < right) {
+        if (numString[left] !== numString[right]) {
+            return false;
+        }
+        left++;
+        right--;
+    }
+    return true;
+}
+
+// Initialize variables
+let count = 1;
+let numbers = [];
+
+while (count <= 3) {
+    let input = prompt("Enter number #" + count + ":");
+    let num = parseInt(input);
+
+    if (!isNaN(num)) {
+        numbers.push(num);
+        count++;
+    } else {
+        alert("Invalid input. Please enter a valid number.");
+    }
+}
+
+for (let i = 0; i < numbers.length; i++) {
+    let number = numbers[i];
+    if (isPalindrome(number)) {
+        console.log(number + " is a palindrome.");
+    } else {
+        console.log(number + " is not a palindrome.");
+    }
+}
+
+    </script>
+</body>
+</html>

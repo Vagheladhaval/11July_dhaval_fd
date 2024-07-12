@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-42</title>
+</head>
+<body>
+    <h1>Write a JavaScript program to compare two objects?</h1>
+
+    <script>
+function deepEqual(obj1, obj2) {
+  if (obj1 === obj2) {
+    return true;
+  }
+  
+  if (obj1 == null || typeof obj1 !== 'object' || obj2 == null || typeof obj2 !== 'object') {
+    return false;
+  }
+
+  let keys1 = Object.keys(obj1);
+  let keys2 = Object.keys(obj2);
+
+  if (keys1.length !== keys2.length) {
+    return false;
+  }
+
+  for (let key of keys1) {
+    if (!keys2.includes(key) || !deepEqual(obj1[key], obj2[key])) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+let objA = {
+  name: 'Dhaval',
+  age: 30,
+  address: {
+    city: 'Rajkot',
+    zip: '12345'
+  }
+};
+
+let objB = {
+  name: 'yash',
+  age: 30,
+  address: {
+    city: 'jamnagar',
+    zip: '12345'
+  }
+};
+
+let objC = {
+  name: 'Pruthvi',
+  age: 30,
+  address: {
+    city: 'Porbandar',
+    zip: '54321'
+  }
+};
+
+console.log(deepEqual(objA, objB)); // true
+console.log(deepEqual(objA, objC)); // false
+
+    </script>
+</body>
+</html>

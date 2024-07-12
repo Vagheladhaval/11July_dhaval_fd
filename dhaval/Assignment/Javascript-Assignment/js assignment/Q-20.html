@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-20</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>What is the differance between && and || in javascript?</h1>
+
+    <p>&& : <br><br>
+        The logical AND operator (&&) returns true if both operands are true. If either operand is false, it returns
+        false. It also performs short-circuit evaluation, meaning it evaluates the second operand only if the first one
+        is true.</p>
+    <p>|| : <br><br>
+        The logical OR operator (||) returns true if at least one of the operands is true. If both operands are false,
+        it returns false. It also performs short-circuit evaluation, meaning it evaluates the second operand only if the
+        first one is false.</p>
+
+    <script>
+        let a = true;
+        let b = false;
+        console.log(a && b);
+
+        let x = 5;
+        console.log(x > 3 && x < 10);
+
+
+
+        let m = false;
+        let d = true;
+        console.log(a || b);
+
+        let t = 5;
+        console.log(x > 3 || x < 2);
+
+
+    </script>
+</body>
+
+</html>

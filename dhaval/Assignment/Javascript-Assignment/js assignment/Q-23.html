@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-23</title>
+</head>
+
+<body>
+    <h1>Find the Character Is Vowel or Not ?</h1>
+
+    <p>To determine whether a character is a vowel or not in JavaScript, you can write a function that checks if the
+        character is present in a list of vowels. </p>
+
+    <script>
+        function isVowel(character) {
+            character = character.toLowerCase();
+
+            return ['a', 'e', 'i', 'o', 'u'].includes(character);
+        }
+
+        // Example usage
+        console.log(isVowel('a'));  
+        console.log(isVowel('b'));  
+        console.log(isVowel('E'));  
+        console.log(isVowel('x'));  
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-9</title>
+    <style>
+
+        .dhaval {
+            text-align: center;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dhaval">
+        <h1>Q.9 Write a JavaScript program to calculate days left until next Christmas?</h1>
+
+        <p></p>
+    </div>
+    <script>
+        function NextChristmas() {
+            const today = new Date();
+            let year = today.getFullYear();
+
+            let nextChristmas = new Date(year, 12, 30);
+            if (today > nextChristmas) {
+                nextChristmas = new Date(year + 1, 12, 30);
+            }
+            const differenceInTime = nextChristmas - today;
+            const differenceInDays = Math.ceil(differenceInTime / (1000 * 60 * 60 * 24));
+
+            return differenceInDays;
+        }
+
+        const daysLeft = NextChristmas();
+        document.write(`There are ${daysLeft} days left until next Christmas.`);
+
+    </script>
+</body>
+
+</html>

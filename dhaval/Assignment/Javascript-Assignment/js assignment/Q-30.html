@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-30</title>
+    <style>
+        body{
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3><u>What are the looping structures in JavaScript? Any one Example?</u></h3>
+    <pre>
+1> <b><u>for loop :</u></b>
+
+- Executes a block of code a specified number of times.
+
+- <u>Example :</u>
+
+  &lt;script&gt;
+    for (let i = 1; i <= 5; i++) {
+        console.log(i);
+    }
+  &lt;/script&gt;
+
+- <u>Output :</u>
+
+  1
+  2
+  3
+  4
+  5
+
+<hr>
+
+2> <b><u>for-in loop :</u></b>
+
+- Iterates over the enumerable properties of an object.
+
+- <u>Example :</u>
+
+&lt;script&gt;
+const person = { name: 'Alice', age: 30, city: 'New York' };
+for (let key in person) {
+    console.log(${key}: ${person[key]});
+}
+&lt;/script&gt;
+
+- <u>Output :</u>
+
+  name: Alice
+  age: 30
+  city: New York
+
+<hr>
+
+3> <b><u>for-of loop :</u></b>
+
+- Iterates over iterable objects (arrays, strings, etc.) to iterate through the values.
+
+- <u>- Example :</u>
+
+&lt;script&gt;
+const colors = ['red', 'green', 'blue'];
+for (let color of colors) {
+    console.log(color);
+}
+&lt;/script&gt;
+
+- <u>Output :</u>
+
+  red
+  green
+  blue
+
+<hr>
+
+4> <b><u>while loop :</u></b>
+
+- Executes a block of code while a specified condition is true.
+
+- <u>Example :</u>
+
+&lt;script&gt;
+let i = 1;
+while (i <= 5) {
+  console.log(i);
+  i++;
+}
+&lt;/script&gt;
+
+- <u>Output :</u>
+
+  1
+  2
+  3
+  4
+  5
+
+<hr>
+
+5> <b><u>do-while loop :</u></b>
+
+- Similar to a while loop, but the block of code is executed at least once before the condition is tested.
+
+- <u>Example :</u>
+
+  &lt;script&gt;
+    let i = 1;
+    do {
+      console.log(i);
+      i++;
+    } while (i <= 5);
+  &lt;/script&gt;
+
+- <u>Output :</u>
+
+  1
+  2
+  3
+  4
+  5
+
+<hr>
+</pre>
+</body>
+
+</html>
