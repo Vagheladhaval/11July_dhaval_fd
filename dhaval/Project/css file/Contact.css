@@ -1,0 +1,103 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+}
+.logo{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul{
+    list-style: none;
+    margin-left: 35%;
+    margin-top: 25px;
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.img2 img{
+    height: 550px;
+    width: 100%;
+}
+.img2 h1{
+    text-align: center;
+    margin-top: -25%;
+}
+.img2 p{
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+#contect{
+    width: 100%;
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-evenly;
+}
+#contect .card{
+    border: none;
+    text-align: center;
+}
+#contect .card p{
+    margin-top: 4%;
+}
+.bt1 button{
+    height: 50px;
+    width: 190px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 42%;
+    margin-top: 2%;
+    background: gray;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+button:hover{
+    cursor: pointer;
+}
+.map{
+    margin-top: 5%;
+}
+footer{
+    height: 18rem;
+    width: 100%;
+    background-color: rgb(222, 218, 213);
+}
+footer h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+#ftr{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ft1 ul li{
+    margin-left: -40px;
+}
+.ft2 .fa-google-play{
+    font-size: 30px;
+}
+.ft4 h4{
+    margin-left: 40px;
+}
+li{
+    list-style: none;
+}

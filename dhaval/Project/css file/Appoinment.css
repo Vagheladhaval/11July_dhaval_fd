@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+}
+.logo{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul{
+    list-style: none;
+    margin-left: 35%;
+    margin-top: 25px;
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    height: 450px;
+    width: 50%;
+    box-shadow: 30px;
+    margin: auto;
+    margin-top: 5%;
+    border: 2px solid ;
+    border-radius: 20px;
+}
+form{
+    margin-top: 30px;
+}
+.container label{
+    margin-left: 30%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.container input{
+    height: 30px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20px;
+    
+}
+.container select{
+    height: 30px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20px;
+    
+}
+.container button{
+    width: 40%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+footer{
+    height: 18rem;
+    width: 100%;
+    background-color: rgb(222, 218, 213);
+}
+footer h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+#ftr{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ft1 ul li{
+    margin-left: -40px;
+}
+.ft2 .fa-google-play{
+    font-size: 30px;
+}
+.ft4 h4{
+    margin-left: 40px;
+}
+li{
+    list-style: none;
+}

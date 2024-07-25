@@ -1,0 +1,159 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+}
+.logo{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul{
+    list-style: none;
+    margin-left: 35%;
+    margin-top: 25px;
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.main-img{
+    height: 99vh;
+    background-image: url("/Project/image/main.jpg");
+    background-size: cover;
+}
+.card1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(219, 221, 224);
+} 
+.box1{
+    width: 45%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 3%;
+    border: 2px solid;
+    border-radius: 15px;
+}
+.box1 img{
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+.box1 h2{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1 p{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.box2{
+    width: 45%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 5%;
+    border: 2px solid;
+    border-radius: 15px;
+}
+.box2 img{
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+.box2 h2{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2 p{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.card2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(219, 221, 224);
+} 
+.box3{
+    width: 45%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 3%;
+    border: 2px solid;
+    border-radius: 15px;
+}
+.box3 img{
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+.box3 h2{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box3 p{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.box4{
+    width: 45%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 5%;
+    border: 2px solid;
+    border-radius: 15px;
+}
+.box4 img{
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+.box4 h2{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box4 p{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+footer{
+    height: 18rem;
+    width: 100%;
+    background-color: rgb(222, 218, 213);
+}
+footer h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+#ftr{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ft1 ul li{
+    margin-left: -40px;
+}
+.ft2 .fa-google-play{
+    font-size: 30px;
+}
+.ft4 h4{
+    margin-left: 40px;
+}
+li{
+    list-style: none;
+}
