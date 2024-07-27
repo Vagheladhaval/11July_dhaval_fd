@@ -1,0 +1,156 @@
+#navbarSupportedContent{
+    margin-left: 48%;
+}
+.carousel-item img{
+    height: 45rem;
+}   
+#trand{
+    width: 100%;
+    display: flex;
+}
+#trand .info{
+    /* border: 1px solid red; */
+    width: 50%;
+}
+#trand .info h2{
+    font-size: 45px;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+#trand .info p{
+    margin-top: 3%;
+    line-height: 35px;
+    font-size: 20px;
+    width: 40rem;
+    margin-left: 15%;
+}
+#trand .info button{
+    padding: 10px;
+    border: none;
+    background: red;
+    color: white;
+    margin-top: 3%;
+}
+.ip{
+    width: 50%;
+}
+.ip img{
+    margin-top: 6%;
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 10px;
+
+}
+#gift{
+    width: 100%;
+    display: flex;
+}
+.ip2{
+    width: 50%;
+
+}
+.info2{
+    width: 50%;
+    margin-top: 7%;
+}
+.info2 h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.info2 p{
+    width: 35rem;
+    margin-top: 5%;
+    font-size: 20px;
+}
+.info2 button{
+    margin-top: 2%;
+    padding: 12px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+footer{
+    height: 18rem;
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: rgb(222, 218, 213);
+}
+footer h1{
+    text-align: center;
+} 
+#ftr{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.ft1 ul li{
+    margin-left: -26%;
+}
+li{
+    list-style: none;
+}
+@media only screen and (max-width: 500px) 
+{
+    body{
+        overflow-x: hidden;
+        /* border: 3px solid red; */
+    }
+    #trand{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .ip img{
+        margin-top: 32rem;
+        margin-left: -80%;
+        height: 25rem;
+        width: 25rem;
+    }
+    #trand .info h2{
+        width: 25rem;
+        /* border: 3px solid red; */
+    } 
+    #trand .info  p{
+        width: 25rem;
+    }
+    #gift{
+        flex-wrap: wrap;
+    }
+    .ip2 img{
+        width: 25rem;
+        height: 25rem;
+        margin-left: 20%;
+    }
+    .info2{
+        width: 100%;
+    }
+    .info2 h2{
+        margin-left: 10%;
+    }
+    .info2 p{
+        margin-left: 10%;
+        width: 25rem;
+    }
+    .info2  button{
+        margin-left: 10%;
+    }
+    .info2 em{
+        margin-left: 10%;
+    }
+    .main{
+        flex-wrap: wrap;
+    }
+    .main2{
+        flex-wrap: wrap;
+    }
+    footer{
+        margin-top: 5rem;
+    }
+    #ftr{
+        /* flex-direction: column; */
+        width: 100%;
+    }
+    .ft3{
+        display: none;
+    }
+}   

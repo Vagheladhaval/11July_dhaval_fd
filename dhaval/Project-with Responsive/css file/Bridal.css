@@ -1,0 +1,107 @@
+/* CSS for styling the form */
+body{
+    overflow-x: hidden;
+}
+#navbarSupportedContent{
+    margin-left: 48%;
+}
+footer{
+    height: 18rem;
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: rgb(222, 218, 213);
+}
+footer h1{
+    text-align: center;
+} 
+#ftr{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.ft1 ul li{
+    margin-left: -26%;
+}
+li{
+    list-style: none;
+}
+#appointmentForm {
+    max-width: 400px;
+    margin: 0 auto;
+    animation: fadeIn 0.5s ease-in-out; /* Add animation to form */
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="time"],
+  input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  /* CSS for styling the table */
+  #appointmentTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  #appointmentTable th, #appointmentTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  #appointmentTable th {
+    background-color: #f2f2f2;
+  }
+
+  /* CSS for animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+    
+  }
+
+  /* Apply animation to newly added rows */
+  #appointmentTable tr.fade-in {
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+  @media only screen and (max-width: 500px) 
+{
+    footer{
+        margin-top: 5rem;
+    }
+    #ftr{
+        /* flex-direction: column; */
+        width: 100%;
+    }
+    .ft3{
+        display: none;
+    }
+}   

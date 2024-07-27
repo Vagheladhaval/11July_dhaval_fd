@@ -1,0 +1,43 @@
+body{
+    overflow-x: hidden;
+}
+#navbarSupportedContent{
+    margin-left: 48%;
+}
+#crd{
+    margin-top: 20px;
+}
+footer{
+    height: 18rem;
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: rgb(222, 218, 213);
+}
+footer h1{
+    text-align: center;
+} 
+#ftr{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.ft1 ul li{
+    margin-left: -26%;
+}
+li{
+    list-style: none;
+}
+@media only screen and (max-width: 500px) 
+{
+    footer{
+        margin-top: 5rem;
+    }
+    #ftr{
+        /* flex-direction: column; */
+        width: 100%;
+    }
+    .ft3{
+        display: none;
+    }
+}
+

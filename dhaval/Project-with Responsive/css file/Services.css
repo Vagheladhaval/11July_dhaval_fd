@@ -1,0 +1,255 @@
+body{
+    overflow-x: hidden;
+}
+#navbarSupportedContent{
+    margin-left: 48%;
+}
+.img1 h1{
+    text-align: center;
+    margin-top: -25%;
+}
+.img1 p{
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+#create{
+    width: 100%;
+    margin-top: 18%;
+}
+#create .heading h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#create .heading p{
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+.cd{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.card{
+    border: none;
+    background-color: transparent;
+}
+.cd1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+button{
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 42%;
+    margin-bottom: 2%;
+    background-color: rgb(168, 170, 172);
+    border-radius: 10px;
+    border: transparent;
+    
+}
+button a{
+    color: white;
+    text-decoration: none;
+    
+}
+#create1{
+    width: 100%;
+    margin-top: 8%;
+    background-color: #F6EBE7;
+}
+#create1 .heading1 h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#create1 .heading1 p{
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+.cd2,
+.cd3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+#create2{
+    width: 100%;
+    margin-top: 8%;
+}
+#create2 .heading2 h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#create2 .heading2 p{
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+.cd4,
+.cd5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+#create3{
+    width: 100%;
+    margin-top: 8%;
+    background-color: #F6EBE7;
+}
+#create3 .heading3 h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#create3 .heading3 p{
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+.cd6,
+.cd7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+#create4{
+    margin-top: 5%;
+}
+#create4 .heading4 h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#create4 .heading4 p{
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+.cd8,
+.cd9{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+footer{
+    height: 18rem;
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: rgb(222, 218, 213);
+}
+footer h1{
+    text-align: center;
+} 
+#ftr{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.ft1 ul li{
+    margin-left: -26%;
+}
+li{
+    list-style: none;
+}
+@media only screen and (max-width: 500px) 
+{
+    body{
+        overflow-x: hidden;
+    }
+    .img1 p{
+        display: none;
+    }
+    #create .heading p{
+        text-align: center;
+        width: 85%;
+        margin-left: 9%;
+    }
+    .cd{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 27%;
+    }
+    .cd1{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 27%;
+    }
+    button{
+        margin-left: 35%;
+    }
+    #create1 .heading1 p{
+        text-align: center;
+        width: 85%;
+        margin-left: 9%;
+    }
+    .cd2,
+    .cd3
+    {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 27%;
+    }
+    button{
+        margin-left: 30%;
+    }
+    #create2 .heading2 p{
+        text-align: center;
+        width: 85%;
+        margin-left: 9%;
+    }
+    .cd4,
+    .cd5
+    {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 27%;
+    }
+    #create3 .heading3 p{
+        text-align: center;
+        width: 85%;
+        margin-left: 9%;
+    }
+    .cd6,
+    .cd7
+    {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 27%;
+    }
+    #create4 .heading4 p{
+        text-align: center;
+        width: 85%;
+        margin-left: 9%;
+    }
+    .cd8,
+    .cd9
+    {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 27%;
+    }
+    footer{
+        margin-top: 5rem;
+    }
+    #ftr{
+        /* flex-direction: column; */
+        width: 100%;
+    }
+    .ft3{
+        display: none;
+    }
+
+}

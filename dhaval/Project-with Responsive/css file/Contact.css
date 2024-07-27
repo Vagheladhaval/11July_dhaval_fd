@@ -1,0 +1,98 @@
+#navbarSupportedContent{
+    margin-left: 48%;
+}
+body{
+    overflow-x: hidden;
+}
+.img2 h1{
+    text-align: center;
+    margin-top: -25%;
+}
+.img2 p{
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+#contect{
+    width: 100%;
+    display: flex;
+    margin-top: 25%;
+    justify-content: space-evenly;
+}
+#contect .card{
+    border: none;
+    text-align: center;
+}
+#contect .card p{
+    margin-top: 4%;
+}
+.bt1 button{
+    padding: 10px;
+    margin-top: 5rem;
+    margin-left: 35rem !important;
+    color: white !important;
+    background-color: rgb(168, 170, 172);
+    border-radius: 10px;
+    border: transparent;
+
+}
+button a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+button:hover{
+    cursor: pointer;
+}
+.map{
+    margin-top: 5%;
+}
+footer{
+    height: 18rem;
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: rgb(222, 218, 213);
+}
+footer h1{
+    text-align: center;
+} 
+#ftr{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.ft1 ul li{
+    margin-left: -26%;
+}
+li{
+    list-style: none;
+}
+@media only screen and (max-width: 500px) 
+{
+    body{
+        overflow-x: hidden;
+    }
+    .img2 p{
+        display: none;
+    }
+    #contect{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bt1 button{
+        margin-left: 36%;
+        margin-top: 5%;
+    }
+    footer{
+        margin-top: 5rem;
+    }
+    #ftr{
+        /* flex-direction: column; */
+        width: 100%;
+    }
+    .ft3{
+        display: none;
+    }
+}    
